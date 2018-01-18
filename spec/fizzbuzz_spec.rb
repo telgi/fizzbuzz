@@ -28,4 +28,8 @@ describe 'fizzbuzz' do
   it 'returns 0 when passed 0' do
     expect(fizzbuzz(0)).to eq 0
   end
+
+  it "returns a string that states 'Error'" do
+    expect(fizzbuzz("1")).to eq "Error"
+  end
 end
